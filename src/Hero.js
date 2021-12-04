@@ -25,22 +25,50 @@ export const Hero = () => {
       <div className="doodles-filter"></div>
       <div className="hero-container">
         <div className={`${isMenuOpen ? "menu show-menu" : "menu"}`}>
-          <Link to="hero-container" smooth={true} duration={2000}>
+          <Link
+            to="hero-container"
+            smooth={true}
+            duration={2000}
+            spy={true}
+            activeClass="active"
+          >
             <button className="btn btn-intro" onClick={handleMenu}>
               home
             </button>
           </Link>
-          <Link to="main-heading" smooth={true} duration={2000}>
+          <Link
+            to="intro-container"
+            smooth={true}
+            duration={2000}
+            spy={true}
+            activeClass="active"
+            // offset={-10}
+          >
             <button className="btn btn-about" onClick={handleMenu}>
               about
             </button>
           </Link>
-          <Link to="projects-container" smooth={true} duration={2000}>
+          <Link
+            to="projects-container"
+            smooth={true}
+            duration={2000}
+            spy={true}
+            activeClass="active"
+            offset={-70}
+          >
             <button className="btn btn-projects" onClick={handleMenu}>
               projects
             </button>
           </Link>
-          <Link to="contact-me" smooth={true} offset={-10} duration={2000}>
+          <Link
+            to="contact-me"
+            smooth={true}
+            offset={-10}
+            duration={2000}
+            spy={true}
+            activeClass="active"
+            offset={-100}
+          >
             <button className="btn btn-contact" onClick={handleMenu}>
               contact me
             </button>

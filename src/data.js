@@ -36,7 +36,7 @@ export const projects = [
     id: 4,
     name: "Crowdfunding App",
     description:
-      "A responsive web application for crowdfunding. This web app is a concept crowdfunding app gives you the ability to donate money to a cause.",
+      "This web application is a concept crowdfunding app that gives you the ability to donate money to a cause.",
     api: false,
     languages: ["Javascript Es6, ", "ReactJS, ", "HTML5, ", "CSS3 "],
     img: "https://dl.airtable.com/.attachmentThumbnails/f8f7a4b1ad807a4f7af64e8014c40411/3505b9ff",
@@ -47,7 +47,7 @@ export const projects = [
     id: 5,
     name: "WindBnb",
     description:
-      "I love the airbnb UI, it is so modern and clean. in this project, i built a similar UI to airbnv - Windbnb",
+      "I love the airbnb UI, it is so modern and clean. in this project, i built a similar UI to airbnb - Windbnb",
     api: true,
     languages: ["Javascript Es6, ", "ReactJS, ", "HTML5, ", "CSS3 "],
     img: "https://dl.airtable.com/.attachmentThumbnails/7432e0812b18427d923d4f39a8694ac4/787ee2c7",

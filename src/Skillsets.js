@@ -14,7 +14,6 @@ export const Skillsets = () => {
   return (
     <div className="skillset-container">
       <h1>My Skillsets</h1>
-      <p style={{ color: "white" }}>add more skillsets button</p>
       <Fade left cascade>
         <div className="skillsets">
           <FaReact className="skill" />
@@ -25,6 +24,10 @@ export const Skillsets = () => {
           <FaNpm className="skill" />
         </div>
       </Fade>
+      {/* <p className="txt txt-photoshop">Photoshop</p>
+      <p className="txt txt-figma">Figma</p>
+      <p className="txt txt-illustrator">Adobe illustrator</p>
+      <p className="txt txt-github"> github</p> */}
     </div>
   );
 };
