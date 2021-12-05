@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { BsArrowDown } from "react-icons/bs";
 import fingers from "./images/fingers.png";
 import logo from "./images/Logo.png";
 import doodle2 from "./images/doodle-2.png";
@@ -63,7 +64,6 @@ export const Hero = () => {
           <Link
             to="contact-me"
             smooth={true}
-            offset={-10}
             duration={2000}
             spy={true}
             activeClass="active"
@@ -99,6 +99,14 @@ export const Hero = () => {
           </div>
           <img src={fingers} alt="peace" id="peace" />
         </div>
+      </div>
+      <div className="arrow-down arrow-down-left animate__animated animate__fadeInLeft">
+        <p>scroll down</p>
+        <BsArrowDown />
+      </div>
+      <div className="arrow-down arrow-down-right animate__animated animate__fadeInRight">
+        <p>scroll down</p>
+        <BsArrowDown />
       </div>
     </section>
   );

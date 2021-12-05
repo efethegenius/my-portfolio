@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  FaCss3,
-  FaGit,
-  FaGithub,
-  FaHtml5,
-  FaNpm,
-  FaReact,
-} from "react-icons/fa";
+import { FaCss3, FaGit, FaHtml5, FaNpm, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import Fade from "react-reveal/Fade";
 
@@ -24,10 +17,6 @@ export const Skillsets = () => {
           <FaNpm className="skill" />
         </div>
       </Fade>
-      {/* <p className="txt txt-photoshop">Photoshop</p>
-      <p className="txt txt-figma">Figma</p>
-      <p className="txt txt-illustrator">Adobe illustrator</p>
-      <p className="txt txt-github"> github</p> */}
     </div>
   );
 };
