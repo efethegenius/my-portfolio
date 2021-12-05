@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { projects } from "./data";
 import Fade from "react-reveal/Fade";
 
@@ -15,8 +15,16 @@ export const Projects = () => {
       </Fade>
       <div className="all-projects">
         {myProjects.map((myProject) => {
-          const { id, name, description, link, api, languages, img } =
-            myProject;
+          const {
+            id,
+            name,
+            description,
+            link,
+            api,
+            languages,
+            img,
+            repository,
+          } = myProject;
           return (
             <div key={id} className="my-project">
               <img src={img} alt="pic" />
@@ -26,14 +34,23 @@ export const Projects = () => {
                   <p id="api">{api ? "API" : "JSON"}</p>
                 </div>
                 <p id="project-description">{description}</p>
-                <a
-                  href={link}
-                  className="live"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  Visit live project <FaExternalLinkAlt />
-                </a>
+                <div className="visit-links">
+                  <a
+                    href={link}
+                    className="live"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Visit live project <FaExternalLinkAlt />
+                  </a>
+                  <a
+                    href={repository}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <FaGithub className="github" />
+                  </a>
+                </div>
                 <p id="languages">{languages}</p>
               </div>
             </div>

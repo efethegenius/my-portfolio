@@ -12,6 +12,17 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Planet Facts",
+    description:
+      "A fun styled web app that displays the planets in our solar system and facts/stats about the planet!",
+    api: false,
+    languages: ["Javascript Es6, ", "ReactJS, ", "HTML5, ", "CSS3 "],
+    img: "https://dl.airtable.com/.attachmentThumbnails/7ba715ee58466e7faa00210f363afc1a/844b5508",
+    link: "https://my-planet-facts.netlify.app/",
+    repository: "https://github.com/efethegenius/planets-facts",
+  },
+  {
+    id: 3,
     name: "The Sunnyside",
     description:
       "A simple but classy landing page for a graphics designer/photographer brand",
@@ -22,7 +33,7 @@ export const projects = [
     repository: "https://github.com/efethegenius/sunnyside",
   },
   {
-    id: 3,
+    id: 4,
     name: "Space Tourism",
     description:
       "A multipage Space Tourism website. It is a concept website that gives you the opportunity to visit other planets in space!",
@@ -33,7 +44,7 @@ export const projects = [
     repository: "https://github.com/efethegenius/space-tourism",
   },
   {
-    id: 4,
+    id: 5,
     name: "Crowdfunding App",
     description:
       "This web application is a concept crowdfunding app that gives you the ability to donate money to a cause.",
@@ -44,7 +55,7 @@ export const projects = [
     repository: "https://github.com/efethegenius/crowdfunding",
   },
   {
-    id: 5,
+    id: 6,
     name: "WindBnb",
     description:
       "I love the airbnb UI, it is so modern and clean. in this project, i built a similar UI to airbnb - Windbnb",

@@ -74,7 +74,7 @@ export const Hero = () => {
             </button>
           </Link>
         </div>
-        <navbar>
+        <nav>
           <img src={logo} alt="logo" />
           <div className="menu-toggle">
             <FaBars
@@ -86,7 +86,7 @@ export const Hero = () => {
               onClick={handleMenu}
             />
           </div>
-        </navbar>
+        </nav>
         <div className="peace-sign animate__animated animate__fadeInUp">
           <div className="greetings">
             <h1 className="hello">Hello</h1>

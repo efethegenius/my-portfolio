@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { HiMail } from "react-icons/hi";
 import saly34 from "./images/Saly-34.png";
 import saly31 from "./images/Saly-31.png";
 import Fade from "react-reveal/Fade";
@@ -34,9 +35,17 @@ export const Contact = () => {
           </Fade>
           <div className="contact-container">
             <h1 id="contact-me">“How do i get in touch with you?”</h1>
-            <p>
-              Pop me an email at <span>samuelefe.37@gmail.com</span> or give me
-              a shout on social media through the links below.
+            <p className="email-me">
+              Pop me an email at <span>samuelefe.37@gmail.com</span> or{" "}
+              <a
+                href="mailto:samuelefe.37@gmail.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Email me <HiMail />{" "}
+              </a>
+              . You can also give me a shout on social media through the links
+              below.
             </p>
             <Fade left cascade>
               <div className="socials-container">

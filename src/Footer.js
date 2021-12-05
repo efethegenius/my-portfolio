@@ -6,6 +6,7 @@ export const Footer = () => {
   return (
     <Fade bottom cascade>
       <footer>
+        <h1>Woah!</h1>
         <p id="thanks">
           Thank you for stopping by and taking your time to go through my
           portfolio. If you think i might be a good fit for your team or your

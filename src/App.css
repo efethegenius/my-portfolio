@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* cursor: none !important; */
 }
 
 :root {
   --varela-round: "Varela Round", sans-serif;
   --la-belle: "La Belle Aurore", cursive;
+}
+.cursor-container {
+  display: none;
 }
 .outer-cursor {
   width: 40px;
@@ -109,7 +111,7 @@ body {
   max-height: 80vh;
   max-width: 150px;
 }
-navbar {
+nav {
   /* background-color: red; */
   position: fixed;
   display: flex;
@@ -120,7 +122,7 @@ navbar {
   width: 90%;
   z-index: 40;
 }
-navbar img {
+nav img {
   width: 2rem;
 }
 .bars {
@@ -199,7 +201,16 @@ navbar img {
   bottom: 40%;
   width: 40%;
 }
-
+.visit-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-right: 10px; */
+}
+.github {
+  font-size: 1.4rem;
+  color: white;
+}
 .hello {
   letter-spacing: 2px;
   font-size: 3rem;
@@ -599,7 +610,7 @@ navbar img {
 .live {
   color: #4943c0;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .project-name {
   display: flex;
@@ -610,10 +621,11 @@ navbar img {
 }
 #api {
   border-radius: 3px;
-  border: 1px solid #4943c0;
+  border: 2px solid #4943c0;
   color: #4943c0;
   padding: 0 5px;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 800;
 }
 #project-description {
   margin-bottom: 10px;
@@ -828,11 +840,11 @@ footer {
   flex-direction: column;
   text-align: center;
   z-index: 2;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 footer p {
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 0.9rem;
   line-height: 20px;
   word-spacing: 2px;
@@ -862,6 +874,21 @@ footer p::after {
 footer img {
   width: 100%;
   z-index: inherit;
+}
+footer h1 {
+  color: #4943c0;
+  font-size: 1.5rem;
+}
+.email-me a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding: 10px;
+}
+.email-me {
+  line-height: 30px !important;
 }
 #creator {
   color: rgba(255, 255, 255, 0.503);
@@ -1035,6 +1062,9 @@ footer img {
   }
 }
 @media screen and (min-width: 1100px) {
+  .cursor-container {
+    display: unset;
+  }
   .saly {
     width: 25rem;
   }
@@ -1067,9 +1097,12 @@ footer img {
     position: relative;
     overflow: hidden;
     transition: all ease-in-out 0.6s;
+    height: 200px;
   }
+
   .my-project img {
     transition: all ease-in-out 0.6s;
+    height: 100%;
   }
   .my-project:hover {
     transform: scale(1.2);
@@ -1079,7 +1112,7 @@ footer img {
     transform: scale(0.7);
   }
   .my-project:hover > img {
-    opacity: 0.2;
+    opacity: 0.03;
   }
   .project-details {
     position: absolute;
@@ -1144,5 +1177,31 @@ footer img {
   #thanks {
     font-size: 1.1rem;
     line-height: 30px;
+  }
+  #project-description {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    word-spacing: 1px;
+    line-height: 26px;
+  }
+  .live {
+    color: #4943c0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 800;
+    transition: all ease-in-out 0.3s;
+  }
+  .live:hover {
+    color: #fff;
+  }
+  .github {
+    font-size: 2rem;
+    transition: all ease-in-out 0.3s;
+  }
+  .github:hover {
+    transform: scale(1.2);
+  }
+  #languages {
+    font-size: 0.8rem;
   }
 }
