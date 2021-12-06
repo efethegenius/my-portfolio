@@ -13,14 +13,14 @@ export const Contact = () => {
           <div className="others-details">
             <h1>“What else?, do you sit all day on the computer?...”</h1>
             <p id="others1">
-              in as much as i spend most of my time on the computer, designing
-              and improving myself, i also enjoy listening to Hip-Hop and R&B
+              In as much as I spend most of my time on the computer, designing
+              and improving myself, I also enjoy listening to Hip-Hop and R&B
               music. My Favorite artise of all time is J.Cole and my favourite
               music is <span>“Love Yourz”</span> by J.Cole.
             </p>
             <p id="others2">
               I also enjoy travelling and visiting new places, meeting new
-              people and trying out foods of other cultures.
+              people and trying out different foods from other cultures.
             </p>
           </div>
           <Fade right>

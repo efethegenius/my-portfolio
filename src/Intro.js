@@ -2,6 +2,7 @@ import React from "react";
 import saly from "./images/Saly-14.png";
 import saly13 from "./images/Saly-13.png";
 import Fade from "react-reveal/Fade";
+import resume from "./efe-samuel-resume.pdf";
 
 export const Intro = () => {
   return (
@@ -10,7 +11,7 @@ export const Intro = () => {
         <div className="full-intro">
           <Fade bottom cascade>
             <div className="intro-text">
-              <h1 id="main-heading">Hi There, I Am</h1>
+              <h1 id="main-heading">Hi there, my name is </h1>
               <h1 id="name">EFE SAMUEL</h1>
               <p>Front-End Web Developer</p>
             </div>
@@ -24,11 +25,12 @@ export const Intro = () => {
             <div className="about-me">
               <h1>“Who is Efe?” you might ask...</h1> {/*MAKE THEM LARGER*/}
               <p id="p1">
-                I am a profesional front-end web developer. I develop fully
-                responsive websites and web applications using modern
+                I am a profesional front-end web developer. I've been in the web
+                development space for over 3 years while developing fully
+                responsive web applications and websites using modern
                 technologies such as Javascript Es6+, React.js, HTML5 and CSS3
-                while consistently recieving high user experience score for all
-                my web development projects.
+                and consistently recieving high user experience score for all my
+                web development projects.
               </p>
               <p id="p2">
                 i am innovative, highly creative, good “out of the box” thinker
@@ -36,16 +38,23 @@ export const Intro = () => {
                 myself). I am also proficient in using Photoshop, Figma, Adobe
                 illustrator, Adobe XD and GIT.
               </p>
-              <Fade bottom>
+              <a
+                href={resume}
+                target="_blank"
+                rel="noopener"
+                className="resume"
+              >
+                My Resume
+              </a>
+              {/* <Fade bottom>
                 <h1 className="techy">
                   “You’re a techy Nerd...” you might say...
                 </h1>
                 <p>
-                  Well, I have a Bsc in Computer Science and a burning passion
-                  and talent in all things computer softwares, what do you
-                  expect?
+                  Well, I have a Bsc in Computer Science plus a burning passion
+                  and talent in all things computer related, what do you expect?
                 </p>
-              </Fade>
+              </Fade> */}
             </div>
           </Fade>
           <Fade left>
