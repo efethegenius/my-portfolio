@@ -10,7 +10,7 @@ export const Projects = () => {
       <Fade bottom cascade>
         <div className="projects-header">
           <h1>“What have you worked on?”</h1>
-          <p>Here are some of my projects: </p>
+          <p>Here are some of my personal projects: </p>
         </div>
       </Fade>
       <div className="all-projects">
