@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaSun, FaTimes } from "react-icons/fa";
 import { BsArrowDown } from "react-icons/bs";
 import fingers from "./images/fingers.png";
 import logo from "./images/Logo.png";
@@ -10,7 +10,7 @@ import doodle5 from "./images/Saly-43.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "animate.css";
 
-export const Hero = () => {
+export const Hero = ({ handleMode }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -75,7 +75,7 @@ export const Hero = () => {
           </Link>
         </div>
         <nav>
-          <img src={logo} alt="logo" />
+          <FaSun onClick={handleMode} className="moon" />
           <div className="menu-toggle">
             <FaBars
               className={`${isMenuOpen ? "bars hide-bars" : "bars"}`}

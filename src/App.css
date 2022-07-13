@@ -81,6 +81,10 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+.moon {
+  color: white;
+  display: none;
+}
 .inner-cursor {
   width: 7px;
   height: 7px;
@@ -91,7 +95,54 @@
 html {
   font-family: var(--varela-round);
 }
+.filter-option label {
+  color: black;
+}
+.filter-option {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 0.85rem;
+  width: 100%;
+  width: 100px;
+  padding: 0 7px;
+}
 
+.filter-by {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  cursor: pointer;
+  font-size: 0.85rem !important;
+  letter-spacing: 2px;
+}
+label {
+  cursor: pointer;
+}
+.arrow {
+  color: #4943c0;
+  font-size: 1.3rem;
+  transition: all ease-in-out 0.4s;
+}
+.rotate-arrow {
+  transform: rotate(180deg);
+  transition: all ease-in-out 0.4s;
+  color: #4943c0;
+  font-size: 1.3rem;
+}
+.filter-options {
+  padding-bottom: 5px;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
 body {
   background-color: black;
   overflow-x: hidden;

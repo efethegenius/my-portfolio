@@ -1,0 +1,26 @@
+.light-mode {
+  background-color: white;
+}
+.light-mode .hello {
+  color: black;
+  transition: all ease-in-out 1s;
+}
+.light-mode .arrow-down,
+.light-mode #name,
+.light-mode .intro-text p,
+.light-mode #p1,
+.light-mode #p2,
+.light-mode .resume,
+.light-mode .projects-container p,
+.light-mode .my-project h1,
+.light-mode .skill,
+.light-mode .others-details p,
+.light-mode .email-me,
+.light-mode .socials-container svg,
+.light-mode footer p {
+  color: black;
+}
+.light-mode ::before,
+.light-mode ::after {
+  color: white !important;
+}

@@ -9,6 +9,7 @@ export const projects = [
     img: "https://dl.airtable.com/.attachmentThumbnails/d05e496b124760e14c554cbb9f5997e9/5b4309c9",
     link: "https://topinvoice.netlify.app/",
     repository: "https://github.com/efethegenius/invoice-app",
+    type: "webApp",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const projects = [
     img: "https://dl.airtable.com/.attachmentThumbnails/8955321c3ad9131bfc6fbbb4cf886555/0865d601",
     link: "https://e-countries.netlify.app/",
     repository: "https://github.com/efethegenius/Countries-app",
+    type: "webApp",
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ export const projects = [
     img: "https://dl.airtable.com/.attachmentThumbnails/27dc986c9c5adbc68e25be6682940f8d/fe35f719",
     link: "https://mydevjobs.netlify.app/",
     repository: "https://github.com/efethegenius/devjobs",
+    type: "webApp",
   },
   {
     id: 4,
@@ -42,6 +45,7 @@ export const projects = [
     img: "https://dl.airtable.com/.attachmentThumbnails/7ba715ee58466e7faa00210f363afc1a/844b5508",
     link: "https://my-planet-facts.netlify.app/",
     repository: "https://github.com/efethegenius/planets-facts",
+    type: "webApp",
   },
   {
     id: 5,
@@ -53,6 +57,7 @@ export const projects = [
     img: "https://dl.airtable.com/.attachmentThumbnails/5ce489107d53e0355d895231f0437237/9cce1c1c",
     link: "https://thesunnyside.netlify.app/",
     repository: "https://github.com/efethegenius/sunnyside",
+    type: "website",
   },
   {
     id: 6,
@@ -64,6 +69,7 @@ export const projects = [
     img: "https://dl.airtable.com/.attachmentThumbnails/226df5bc3a7792a7d8d40ce43d1c0233/938d07db",
     link: "https://spacetours.netlify.app/",
     repository: "https://github.com/efethegenius/space-tourism",
+    type: "website",
   },
   {
     id: 7,
@@ -75,6 +81,7 @@ export const projects = [
     img: "https://dl.airtable.com/.attachmentThumbnails/f8f7a4b1ad807a4f7af64e8014c40411/3505b9ff",
     link: "https://mycrowdfunding.netlify.app/",
     repository: "https://github.com/efethegenius/crowdfunding",
+    type: "webApp",
   },
   {
     id: 8,
@@ -86,5 +93,29 @@ export const projects = [
     img: "https://dl.airtable.com/.attachmentThumbnails/7432e0812b18427d923d4f39a8694ac4/787ee2c7",
     link: "https://mywindbnb.netlify.app/",
     repository: "https://github.com/efethegenius/windbnb",
+    type: "webApp",
+  },
+  {
+    id: 9,
+    name: "Loopstudios VR",
+    description:
+      "This is just a simple static one page website for a VR company/business",
+    api: false,
+    languages: ["Javascript Es6+, ", "ReactJS, ", "HTML5, ", "CSS3 "],
+    img: "https://dl.airtable.com/.attachmentThumbnails/2cb9018c872acf1d3c572c0454f8caaa/8a6c5c0f",
+    link: "https://my-loopstudios.netlify.app/",
+    repository: "https://github.com/efethegenius/loopstudios",
+    type: "website",
+  },
+  {
+    id: 10,
+    name: "My Portfolio",
+    description: "That's right, this one...",
+    api: false,
+    languages: ["Javascript Es6+, ", "ReactJS, ", "HTML5, ", "CSS3 "],
+    img: "https://dl.airtable.com/.attachmentThumbnails/df5d9b794a9310922442c795193f087f/cbeac868",
+    link: "https://efesamuel.netlify.app/",
+    repository: "https://github.com/efethegenius/my-portfolio",
+    type: "website",
   },
 ];
