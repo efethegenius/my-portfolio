@@ -1,5 +1,17 @@
 export const projects = [
   {
+    id: 11,
+    name: "E-Streams",
+    description:
+      "See the full details & trailers of your favourite movies, latest movies and tv series. It Utilizes the TMDB api so the movies on the application are always up to date!",
+    api: true,
+    languages: ["Javascript Es6+, ", "ReactJS, ", "HTML5, ", "CSS3 "],
+    img: "https://dl.airtable.com/.attachmentThumbnails/7f95665fb164fe37546b9a2791c835d5/8464d0db",
+    link: "https://estreams.netlify.app/",
+    repository: "https://github.com/efethegenius/E-Streams",
+    type: "webApp",
+  },
+  {
     id: 1,
     name: "Invoice App",
     description:
@@ -9,6 +21,18 @@ export const projects = [
     img: "https://dl.airtable.com/.attachmentThumbnails/d05e496b124760e14c554cbb9f5997e9/5b4309c9",
     link: "https://topinvoice.netlify.app/",
     repository: "https://github.com/efethegenius/invoice-app",
+    type: "webApp",
+  },
+  {
+    id: 12,
+    name: "Afarmacco",
+    description:
+      "afarmacco enables poultry farmers to maintain their daily operational records, keep records of financial transactions,apply medications to secure your birds & lots more.",
+    api: true,
+    languages: ["Javascript Es6+, ", "ReactJS, ", "HTML5, ", "CSS3 "],
+    img: "https://dl.airtable.com/.attachmentThumbnails/ac52e64612d82625c38d7453dc177831/c19eafc3",
+    link: "https://afarmacco.netlify.app/",
+    repository: "https://github.com/efethegenius/afarmacco",
     type: "webApp",
   },
   {
@@ -83,30 +107,30 @@ export const projects = [
     repository: "https://github.com/efethegenius/crowdfunding",
     type: "webApp",
   },
-  {
-    id: 8,
-    name: "WindBnb",
-    description:
-      "I love the airbnb UI, it is so modern and clean. in this project, i built a similar UI to airbnb - Windbnb",
-    api: true,
-    languages: ["Javascript Es6+, ", "ReactJS, ", "HTML5, ", "CSS3 "],
-    img: "https://dl.airtable.com/.attachmentThumbnails/7432e0812b18427d923d4f39a8694ac4/787ee2c7",
-    link: "https://mywindbnb.netlify.app/",
-    repository: "https://github.com/efethegenius/windbnb",
-    type: "webApp",
-  },
-  {
-    id: 9,
-    name: "Loopstudios VR",
-    description:
-      "This is just a simple static one page website for a VR company/business",
-    api: false,
-    languages: ["Javascript Es6+, ", "ReactJS, ", "HTML5, ", "CSS3 "],
-    img: "https://dl.airtable.com/.attachmentThumbnails/2cb9018c872acf1d3c572c0454f8caaa/8a6c5c0f",
-    link: "https://my-loopstudios.netlify.app/",
-    repository: "https://github.com/efethegenius/loopstudios",
-    type: "website",
-  },
+  // {
+  //   id: 8,
+  //   name: "WindBnb",
+  //   description:
+  //     "I love the airbnb UI, it is so modern and clean. in this project, i built a similar UI to airbnb - Windbnb",
+  //   api: true,
+  //   languages: ["Javascript Es6+, ", "ReactJS, ", "HTML5, ", "CSS3 "],
+  //   img: "https://dl.airtable.com/.attachmentThumbnails/7432e0812b18427d923d4f39a8694ac4/787ee2c7",
+  //   link: "https://mywindbnb.netlify.app/",
+  //   repository: "https://github.com/efethegenius/windbnb",
+  //   type: "webApp",
+  // },
+  // {
+  //   id: 9,
+  //   name: "Loopstudios VR",
+  //   description:
+  //     "This is just a simple static one page website for a VR company/business",
+  //   api: false,
+  //   languages: ["Javascript Es6+, ", "ReactJS, ", "HTML5, ", "CSS3 "],
+  //   img: "https://dl.airtable.com/.attachmentThumbnails/2cb9018c872acf1d3c572c0454f8caaa/8a6c5c0f",
+  //   link: "https://my-loopstudios.netlify.app/",
+  //   repository: "https://github.com/efethegenius/loopstudios",
+  //   type: "website",
+  // },
   {
     id: 10,
     name: "My Portfolio",

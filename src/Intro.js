@@ -13,7 +13,7 @@ export const Intro = () => {
             <div className="intro-text">
               <h1 id="main-heading">Hi there, my name is </h1>
               <h1 id="name">EFE SAMUEL</h1>
-              <p>Front-End Web Developer</p>
+              <p>Software Developer</p>
             </div>
           </Fade>
           <Fade right>
@@ -25,18 +25,15 @@ export const Intro = () => {
             <div className="about-me">
               <h1>“Who is Efe?” you might ask...</h1> {/*MAKE THEM LARGER*/}
               <p id="p1">
-                I am a profesional front-end web developer. I've been in the web
-                development space for over 3 years while developing fully
-                responsive web applications and websites using modern
-                technologies such as Javascript Es6+, React.js, HTML5 and CSS3
-                and consistently recieving high user experience score for all my
-                web development projects.
+                I am a professional software developer, I develop fully
+                responsive applications using modern technologies such as
+                Javascript Es6+, React.js, React Native, Node.js, Express js,
+                HTML5, CSS3 and a host of other technologies while consistently
+                receiving high user experience score for all my projects.
               </p>
               <p id="p2">
-                i am innovative, highly creative, good “out of the box” thinker
-                with great analytics and problem solving skills (if i do say so
-                myself). I am also proficient in using Photoshop, Figma, Adobe
-                illustrator, Adobe XD and GIT.
+                I am innovative, highly creative, good “out of the box” thinker
+                with great analytics and problem solving skills.
               </p>
               <a
                 href={resume}

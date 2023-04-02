@@ -198,18 +198,19 @@ body {
   height: 100vh;
 }
 .peace-sign {
-  width: 60%;
-
+  width: 100%;
   position: absolute;
   bottom: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 #peace {
-  max-height: 80vh;
-  max-width: 150px;
+  /* max-height: 80vh;
+  max-width: 150px; */
+  width: 150px;
 }
 nav {
   position: fixed;
@@ -251,9 +252,9 @@ nav img {
 }
 .greetings {
   color: white;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   font-weight: normal;
-  position: relative;
+  /* position: relative; */
   background-color: black;
   display: flex;
   justify-content: center;
