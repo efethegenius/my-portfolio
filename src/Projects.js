@@ -28,7 +28,7 @@ export const Projects = () => {
       <Fade bottom cascade>
         <div className="projects-header">
           <h1>“What have you worked on?”</h1>
-          <p>Here are some of my personal projects: </p>
+          <p>Below, you'd find some of my public projects: </p>
           <p className="filter-by" onClick={handleFilter}>
             Filter by{" "}
             <MdKeyboardArrowDown
